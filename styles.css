@@ -1,0 +1,45 @@
+*{
+    background:rgb(187, 187, 255);
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.first-container{
+    height:50%;
+    width: 100%;
+    display: flex;
+}
+
+.second-container{
+    height:50%;
+    width: 100%;
+    display: flex;
+}
+#first-square {
+    display:flex;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 10px solid yellow;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+}
+
+
+
+
+
